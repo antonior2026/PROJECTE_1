@@ -5,38 +5,38 @@ while True:
  print("Què vols fer?")
  print("--------------------\n1: Operacions bàsiques\n2: Logaritmes i exponencials\n3: Trigonometria\n4: Conversions\n5: Sortir\n--------------------")
  
- Menú = int(input("Escull: ")) 
+ menu = int(input("Escull: ")) 
  print("--------------------")
 
- if (Menú==1):
+ if (menu==1):
   print("--------------------\nQuina modalitat esculls?")
   print("1: Sumar\n2: Restar\n3: Multiplicació\n4: Divisió")
 
   Menu2 = int(input("--------------------\nModalitat: "))
   print("--------------------")
 
- elif (Menú==2):
+ elif (menu==2):
   print("Quina modalitat esculls?")
   print("5: Arrels Quadrades\n6: Logaritmes\n7: Factorial")
 
   Menu2 = int(input("--------------------\nModalitat: "))
   print("--------------------")
 
- elif (Menú==3):
+ elif (menu==3):
   print("Quina modalitat esculls?")
   print("8: Cosinus\n9: Sinus\n10: Tangent\n11: Pi\n12: e")
 
   Menu2 = int(input("--------------------\nModalitat: "))
   print("--------------------")
 
- elif (Menú==4):
+ elif (menu==4):
   print("Quina modalitat esculls?")
   print("13: Graus centigrads\n14: Radiants") 
   
   Menu2 = int(input("--------------------\nModalitat: "))
   print("--------------------")
 
- elif (Menú==5):
+ elif (menu==5):
     print("Gràcies per utilitzar la millor calculadora!")
     print("--------------------")
     break
