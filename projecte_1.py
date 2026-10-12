@@ -1,11 +1,11 @@
 import math
 
 while True:
- print("Benvingut/da a la millor calculadora del món!")
+ print("Benvingut/da a la millor calculadora!")
  print("Què vols fer?")
  print("--------------------\n1: Operacions bàsiques\n2: Logaritmes i exponencials\n3: Trigonometria\n4: Conversions\n5: Sortir\n--------------------")
  
- Menú = int(input("Escull: "))
+ Menú = int(input("Escull: ")) 
  print("--------------------")
 
  if (Menú==1):
